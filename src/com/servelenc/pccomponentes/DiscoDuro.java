@@ -1,14 +1,12 @@
 package com.servelenc.pccomponentes;
 
-
-public class Procesador {
-
+public class DiscoDuro {
     /**
      * Atributos, propiedades y variables estada
      */
     private Integer id;
-    private String marca;
     private String fabricante;
+    private String capacidad;
 
     /**
      * Metodos, funciones y compertamiento
@@ -22,21 +20,23 @@ public class Procesador {
 
         this.id = id;
     }
-    public String getMarca(){
-
-        return marca;
-    }
-    public void setMarca (String marca){
-
-        this.marca = marca;
-    }
     public String getFabricante(){
 
         return fabricante;
     }
-    public void setFabricante(String fabricante){
+    public void setFabricante (String fabricante){
 
         this.fabricante = fabricante;
     }
+    public String getCapacidad(){
 
-}
+        return capacidad;
+    }
+    public void setCapacidad(String capacidad){
+
+        this.capacidad = capacidad;
+    }
+
+ }
+
+

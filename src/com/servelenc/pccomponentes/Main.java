@@ -40,6 +40,47 @@ public class Main {
         System.out.println(asus.getMarca());
         System.out.println(asus.getFabricante());
 
+        Memoria kingston = new Memoria();
+
+        kingston.setId(4);
+        kingston.setFabricante("Kingston");
+        kingston.setCapacidad("8GB");
+
+        System.out.println(kingston.getId());
+        System.out.println(kingston.getFabricante());
+        System.out.println(kingston.getCapacidad());
+
+        Memoria corsair = new Memoria();
+
+        corsair.setId(5);
+        corsair.setFabricante("Corsair");
+        corsair.setCapacidad("16GB");
+
+        System.out.println(corsair.getId());
+        System.out.println(corsair.getFabricante());
+        System.out.println(corsair.getCapacidad());
+
+        DiscoDuro seagate = new DiscoDuro();
+
+        seagate.setId(6);
+        seagate.setFabricante("Seagate");
+        seagate.setCapacidad("2GB");
+
+        System.out.println(seagate.getId());
+        System.out.println(seagate.getFabricante());
+        System.out.println(seagate.getCapacidad());
+
+        DiscoDuro samsung = new DiscoDuro();
+
+        samsung.setId(7);
+        samsung.setFabricante("Samsung");
+        samsung.setCapacidad("16GB");
+
+        System.out.println(samsung.getId());
+        System.out.println(samsung.getFabricante());
+        System.out.println(samsung.getCapacidad());
+
+
     }
 }
 
