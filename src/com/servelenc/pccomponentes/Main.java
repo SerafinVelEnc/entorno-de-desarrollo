@@ -40,9 +40,19 @@ public class Main {
         System.out.println(asus.getMarca());
         System.out.println(asus.getFabricante());
 
+        PlacaBase msi = new PlacaBase();
+
+        msi.setId(4);
+        msi.setMarca("B660M-A");
+        msi.setFabricante("msi");
+
+        System.out.println(msi.getId());
+        System.out.println(msi.getMarca());
+        System.out.println(msi.getFabricante());
+
         Memoria kingston = new Memoria();
 
-        kingston.setId(4);
+        kingston.setId(5);
         kingston.setFabricante("Kingston");
         kingston.setCapacidad("8GB");
 
@@ -52,7 +62,7 @@ public class Main {
 
         Memoria corsair = new Memoria();
 
-        corsair.setId(5);
+        corsair.setId(6);
         corsair.setFabricante("Corsair");
         corsair.setCapacidad("16GB");
 
@@ -62,7 +72,7 @@ public class Main {
 
         DiscoDuro seagate = new DiscoDuro();
 
-        seagate.setId(6);
+        seagate.setId(7);
         seagate.setFabricante("Seagate");
         seagate.setCapacidad("2GB");
 
@@ -72,7 +82,7 @@ public class Main {
 
         DiscoDuro samsung = new DiscoDuro();
 
-        samsung.setId(7);
+        samsung.setId(8);
         samsung.setFabricante("Samsung");
         samsung.setCapacidad("16GB");
 
@@ -80,6 +90,65 @@ public class Main {
         System.out.println(samsung.getFabricante());
         System.out.println(samsung.getCapacidad());
 
+        CajaTorre nfortec = new CajaTorre();
+
+        nfortec.setId(9);
+        nfortec.setFabricante("Nfortec");
+        nfortec.setSize(" 400x208x458mm");
+
+        System.out.println(nfortec.getId());
+        System.out.println(nfortec.getFabricante());
+        System.out.println(nfortec.getSize());
+
+        CajaTorre nox = new CajaTorre();
+
+        nox.setId(10);
+        nox.setFabricante("Nox");
+        nox.setSize("360 x 180 x 410mm");
+
+        System.out.println(nox.getId());
+        System.out.println(nox.getFabricante());
+        System.out.println(nox.getSize());
+
+        VentiladorCpu tempest = new VentiladorCpu();
+
+        tempest.setId(11);
+        tempest.setFabricante("Tempest");
+        tempest.setSize("122 x 156 x 74,5mm");
+
+        System.out.println(tempest.getId());
+        System.out.println(tempest.getFabricante());
+        System.out.println(tempest.getSize());
+
+        VentiladorCpu cooler = new VentiladorCpu();
+
+        cooler.setId(12);
+        cooler.setFabricante("Cooler");
+        cooler.setSize("100 x 160 x 251mm");
+
+        System.out.println(cooler.getId());
+        System.out.println(cooler.getFabricante());
+        System.out.println(cooler.getSize());
+
+        FuenteAlimentacion owlotech = new FuenteAlimentacion();
+
+        owlotech.setId(13);
+        owlotech.setFabricante("Owlotech");
+        owlotech.setPotencia("600W");
+
+        System.out.println(owlotech.getId());
+        System.out.println(owlotech.getFabricante());
+        System.out.println(owlotech.getPotencia());
+
+        FuenteAlimentacion forgeon = new FuenteAlimentacion();
+
+        forgeon.setId(14);
+        forgeon.setFabricante("Forgeon");
+        forgeon.setPotencia("750W");
+
+        System.out.println(forgeon.getId());
+        System.out.println(forgeon.getFabricante());
+        System.out.println(forgeon.getPotencia());
 
     }
 }
