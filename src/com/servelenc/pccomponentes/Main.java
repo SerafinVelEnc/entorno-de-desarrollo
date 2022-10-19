@@ -150,6 +150,145 @@ public class Main {
         System.out.println(forgeon.getFabricante());
         System.out.println(forgeon.getPotencia());
 
+        TarjetaGrafica zotac = new TarjetaGrafica();
+
+        zotac.setId(15);
+        zotac.setFabricante("Zotac");
+        zotac.setCapacidad("12GB");
+
+        System.out.println(zotac.getId());
+        System.out.println(zotac.getFabricante());
+        System.out.println(zotac.getCapacidad());
+
+        TarjetaGrafica xfx = new TarjetaGrafica();
+
+        xfx.setId(16);
+        xfx.setFabricante("Xfx");
+        xfx.setCapacidad("12GB");
+
+        System.out.println(xfx.getId());
+        System.out.println(xfx.getFabricante());
+        System.out.println(xfx.getCapacidad());
+
+        TarjetaDeSonido creative = new TarjetaDeSonido();
+
+        creative.setId(17);
+        creative.setFabricante("Creative");
+        creative.setNumeroDeCanales("5.1");
+
+        System.out.println(creative.getId());
+        System.out.println(creative.getFabricante());
+        System.out.println(creative.getNumeroDeCanales());
+
+        TarjetaDeSonido startech = new TarjetaDeSonido();
+
+        startech.setId(17);
+        startech.setFabricante("StarTech");
+        startech.setNumeroDeCanales("5.1");
+
+        System.out.println(startech.getId());
+        System.out.println(startech.getFabricante());
+        System.out.println(startech.getNumeroDeCanales());
+
+        GrabadoraDeDvd hitachi = new GrabadoraDeDvd();
+
+        hitachi.setId(18);
+        hitachi.setFabricante("Hitachi");
+        hitachi.setModosDeGrabacion("DVD-R / RW, DVD+R / RW, CD-R /RW");
+
+        System.out.println(hitachi.getId());
+        System.out.println(hitachi.getFabricante());
+        System.out.println(hitachi.getModosDeGrabacion());
+
+        GrabadoraDeDvd lg = new GrabadoraDeDvd();
+
+        lg.setId(19);
+        lg.setFabricante("Lg");
+        lg.setModosDeGrabacion("DVD-R / RW, DVD+R / RW, DVD-R / RW doble capa, DVD+R / RW doble capa, CD-R / RW");
+
+        System.out.println(lg.getId());
+        System.out.println(lg.getFabricante());
+        System.out.println(lg.getModosDeGrabacion());
+
+        Monitor philips = new  Monitor();
+
+        philips.setId(20);
+        philips.setFabricante("Philips");
+        philips.setSize("23.8 pulgadas");
+
+        System.out.println(philips.getId());
+        System.out.println(philips.getFabricante());
+        System.out.println(philips.getSize());
+
+        Monitor samgsung = new  Monitor();
+
+        samgsung.setId(21);
+        samgsung.setFabricante("Samsung");
+        samgsung.setSize("34 pulgadas");
+
+        System.out.println(samgsung.getId());
+        System.out.println(samgsung.getFabricante());
+        System.out.println(samgsung.getSize());
+
+        Teclado owlotech2 = new Teclado();
+
+        owlotech2.setId(22);
+        owlotech2.setFabricante("Owlotech");
+        owlotech2.setPeso("300gr");
+
+        System.out.println(owlotech2.getId());
+        System.out.println(owlotech2.getFabricante());
+        System.out.println(owlotech2.getPeso());
+
+        Teclado tempest2 = new Teclado();
+
+        tempest2.setId(22);
+        tempest2.setFabricante("Tempest2");
+        tempest2.setPeso("300gr");
+
+        System.out.println(tempest2.getId());
+        System.out.println(tempest2.getFabricante());
+        System.out.println(tempest2.getPeso());
+
+        Raton hp = new Raton();
+
+        hp.setId(23);
+        hp.setFabricante("Hp");
+        hp.setColor("negro");
+
+        System.out.println(hp.getId());
+        System.out.println(hp.getFabricante());
+        System.out.println(hp.getColor());
+
+        Raton newskill = new Raton();
+
+        newskill.setId(24);
+        newskill.setFabricante("Newskill");
+        newskill.setColor("blanco");
+
+        System.out.println(newskill.getId());
+        System.out.println(newskill.getFabricante());
+        System.out.println(newskill.getColor());
+
+        Altavoces logitech = new Altavoces();
+
+        logitech.setId(25);
+        logitech.setFabricante("Hp");
+        logitech.setPotencia("80W");
+
+        System.out.println(logitech.getId());
+        System.out.println(logitech.getFabricante());
+        System.out.println(logitech.getPotencia());
+
+        Altavoces woxter = new Altavoces();
+
+        woxter.setId(26);
+        woxter.setFabricante("Woxter");
+        woxter.setPotencia("150W");
+
+        System.out.println(woxter.getId());
+        System.out.println(woxter.getFabricante());
+        System.out.println(woxter.getPotencia());
     }
 }
 
